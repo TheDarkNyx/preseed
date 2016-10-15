@@ -7,4 +7,4 @@ net.ipv6.conf.all.disable_ipv6 = 1
 net.ipv6.conf.default.disable_ipv6 = 1
 net.ipv6.conf.lo.disable_ipv6 = 1
 EOT
-apt-get install -y linux-headers-$(uname -r);apt-get install -y gcc;apt-get install -y make;apt-get install -y unattended-upgrades
+apt-get install -y linux-headers-$(uname -r) gcc make unattended-upgrades
